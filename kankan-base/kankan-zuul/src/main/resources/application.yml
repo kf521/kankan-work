@@ -1,0 +1,27 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: kankan-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+devtools:
+  restart:
+    enabled: false
+
+zuul:
+  routes:
+    order-service: /backend/order/**
+    product-service: /backend/product/**
+  #统一入口为上面的配置，其他入口忽略
+  ignored-patterns: /*-service/*
+  #忽略整个服务，对外提供接口
+  ignored-services: order-service
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Credentials,Access-Control-Allow-Origin,Vary,X-Frame-Options,token
+

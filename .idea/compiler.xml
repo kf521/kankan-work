@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kankan-server" />
+        <module name="kankan-config" />
+        <module name="kankan-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kankan-base" target="1.8" />
+      <module name="kankan-config" target="1.8" />
+      <module name="kankan-server" target="1.8" />
+      <module name="kankan-work" target="1.8" />
+      <module name="kankan-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kankan-base" options="-parameters" />
+      <module name="kankan-config" options="-parameters" />
+      <module name="kankan-server" options="-parameters" />
+      <module name="kankan-work" options="-parameters" />
+      <module name="kankan-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

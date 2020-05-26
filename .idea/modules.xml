@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kankan-base/kankan-base.iml" filepath="$PROJECT_DIR$/kankan-base/kankan-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kankan-base/kankan-config/kankan-config.iml" filepath="$PROJECT_DIR$/kankan-base/kankan-config/kankan-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kankan-base/kankan-server/kankan-server.iml" filepath="$PROJECT_DIR$/kankan-base/kankan-server/kankan-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kankan-work.iml" filepath="$PROJECT_DIR$/kankan-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kankan-base/kankan-zuul/kankan-zuul.iml" filepath="$PROJECT_DIR$/kankan-base/kankan-zuul/kankan-zuul.iml" />
+    </modules>
+  </component>
+</project>

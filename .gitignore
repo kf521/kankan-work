@@ -1,0 +1,4 @@
+# Project exclude paths
+/kankan-base/kankan-config/target/
+/kankan-base/kankan-server/target/
+/kankan-base/kankan-zuul/target/

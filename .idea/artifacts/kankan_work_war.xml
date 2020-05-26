@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kankan-work:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kankan-work</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kankan-work-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kankan-work:war exploded" />
+    </root>
+  </artifact>
+</component>
